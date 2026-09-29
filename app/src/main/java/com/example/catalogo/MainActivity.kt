@@ -35,6 +35,12 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+
+/*
+Componente de tarjeta que muestra la información detallada de un producto individual,
+ * incluyendo sus botones de gestión para actualizar y eliminar registros.
+ */
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun CatalogScreen() {
